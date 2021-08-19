@@ -1,0 +1,2 @@
+Se utilizo el siguiente enlace para realizar un buffer al teclado
+https://poesiabinaria.net/2009/05/buffer-de-teclado-en-linux/
