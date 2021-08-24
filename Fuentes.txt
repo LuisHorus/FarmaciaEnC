@@ -1,2 +1,5 @@
 Se utilizo el siguiente enlace para realizar un buffer al teclado
 https://poesiabinaria.net/2009/05/buffer-de-teclado-en-linux/
+
+Obtener longitudes de un arreglo
+https://parzibyte.me/blog/2018/09/21/longitud-de-un-arreglo-en-c/

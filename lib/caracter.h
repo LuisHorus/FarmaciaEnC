@@ -5,9 +5,7 @@
 int Wsize ()
 {
 
-   
-
-    struct winsize w;
+     struct winsize w;
     ioctl(STDOUT_FILENO, TIOCGWINSZ, &w);
 
     // printf ("lines %d\n", w.ws_row);

@@ -5,9 +5,15 @@
 #define PASSWORD "123"
 #include <stdlib.h>
 #include <stdio_ext.h> //!libreria Para Limpiar BUFFER
+#include "lib/newProveedor.h"
 
+//Variables Globales
+int opc;
+
+
+// Declaracion de Funciones
 void Datos();
-void Proveedores();
+int Proveedores();
 void Productos();
 int Menu();
 
@@ -17,6 +23,7 @@ int main()
     char clave[80];
     int opc_main=0;
     int contador=0;
+    int opc=0;
 
     Datos();
     do
@@ -85,7 +92,7 @@ int Menu()
     {
 
     case 1:
-        // Proveedores();
+        Proveedores();
         break;
     case 2:
         // Productos();
@@ -117,4 +124,43 @@ int Menu()
     }
 
     return 0;
+}
+int Proveedores(){
+   
+    Datos();
+    printf("\n\t\t Proveedores\n");
+    Wsize();
+
+    printf("\n\t1.- Registrar nuevos Proveedores \n");
+    printf("\t2.- Listar Proveedores\n");
+
+    printf("\nDigite una Opcion: ");
+    scanf("%i",&opc);
+    
+
+    switch (opc)
+    {
+
+
+
+        case 1: 
+        
+        printf("Registrar Nuevos Proveedores, presione enter para acceder....\n");
+        getchar();    
+        NewProveedor();
+        break;
+
+    case 2:
+        system("clear");
+        printf("Listar Proveedores, presione enter para acceder....\n");
+        getchar();
+     
+      
+     
+        break;
+  
+    default:printf("Opcion Invalida");
+        break;
+    }
+return 0;
 }
