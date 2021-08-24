@@ -1,0 +1,10 @@
+
+
+ 1 El nombre de la empresa es: dsada
+ 1 El nombre del empleado de la empresa es: fasf
+ 1 El telefono de la empresa es: 1536
+
+
+ 2 El nombre de la empresa es: ü
+ 2 El nombre del empleado de la empresa es: ?p#
+ 2 El telefono de la empresa es: 32547

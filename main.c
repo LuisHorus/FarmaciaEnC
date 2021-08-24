@@ -6,10 +6,14 @@
 #include <stdlib.h>
 #include <stdio_ext.h> //!libreria Para Limpiar BUFFER
 #include "lib/newProveedor.h"
+#define YES "s"
 
 //Variables Globales
 int opc;
-
+ 
+FILE *f;
+char aux[200];
+char decision[3];
 
 // Declaracion de Funciones
 void Datos();
@@ -82,9 +86,9 @@ int Menu()
     printf("\t\t1.- Proveedores\n");
     printf("\t\t2.- Productos\n");
     printf("\t\t3.- Nuevos productos\n");
-    printf("\t\t4.- Nuevos Proveedores\n");
-    printf("\t\t5.- Venta\n");
-    printf("\t\t6.- Facturar\n");
+    printf("\t\t4.- Venta\n");
+    printf("\t\t5.- Facturar\n");    
+    printf("\t\t6.- Salir\n");
     printf("\t\t Digite una opcion 1-6 \n");
     scanf("%i", &opc);
     
@@ -109,11 +113,9 @@ int Menu()
     case 5:
         // Productos();
         break;
-
     case 6:
-        // Productos();
-        break;
-
+    system("clear");
+    exit(1);
     default:
         system("clear");
         printf("Opcion Invalida\n Intente Nuevamente Porfavor\n");
@@ -133,6 +135,7 @@ int Proveedores(){
 
     printf("\n\t1.- Registrar nuevos Proveedores \n");
     printf("\t2.- Listar Proveedores\n");
+    printf("\t3.- Volver al Menu\n");
 
     printf("\nDigite una Opcion: ");
     scanf("%i",&opc);
@@ -140,9 +143,6 @@ int Proveedores(){
 
     switch (opc)
     {
-
-
-
         case 1: 
         
         printf("Registrar Nuevos Proveedores, presione enter para acceder....\n");
@@ -154,11 +154,37 @@ int Proveedores(){
         system("clear");
         printf("Listar Proveedores, presione enter para acceder....\n");
         getchar();
-     
       
+        f = fopen("/home/luis/Escritorio/ProyectoFarmacia/Datos/Provedores/list.txt", "r");
+        if (f == NULL)
+        {
+            printf("\nEl archivo no existe. ");
+        }
+        while (!feof(f))
+        {
+            fgets(aux,200,f);
+            printf("%s",aux);
+        }
+        printf("\nDesea volver al menu S/N: ");
+        scanf("%s",decision);
+        if (strcmp(YES,decision)==0)
+        {
+            system("clear");
+            
+            Datos();
+            
+            Menu();
+        }else
+        __fpurge(stdin);
+        Proveedores();
+        
      
         break;
-  
+    case 3:
+        system("clear");
+        Datos();
+        Menu();
+        break;
     default:printf("Opcion Invalida");
         break;
     }

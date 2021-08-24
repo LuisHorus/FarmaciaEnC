@@ -1,0 +1,25 @@
+
+
+ 1 El nombre de la empresa es: lala
+ 1 El nombre del empleado de la empresa es: pepea
+ 1 El telefono de la empresa es: 46
+
+
+ 2 El nombre de la empresa es: piña
+ 2 El nombre del empleado de la empresa es: lana
+ 2 El telefono de la empresa es: 55
+
+
+ 3 El nombre de la empresa es: 
+ 3 El nombre del empleado de la empresa es: 
+ 3 El telefono de la empresa es:
+
+
+ 4 El nombre de la empresa es: 
+ 4 El nombre del empleado de la empresa es: 
+ 4 El telefono de la empresa es:
+
+
+ 5 El nombre de la empresa es: 
+ 5 El nombre del empleado de la empresa es:
+ 5 El telefono de la empresa es:
