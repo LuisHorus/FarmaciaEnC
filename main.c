@@ -153,9 +153,13 @@ int Proveedores(){
     case 2:
         system("clear");
         printf("Listar Proveedores, presione enter para acceder....\n");
+        system("pwd");
         getchar();
+        char direccion[50];
+        
+
       
-        f = fopen("/home/luis/Escritorio/ProyectoFarmacia/Datos/Provedores/list.txt", "r");
+        f = fopen("Datos/Provedores/list.txt", "r");
         if (f == NULL)
         {
             printf("\nEl archivo no existe. ");

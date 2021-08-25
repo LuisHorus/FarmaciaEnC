@@ -74,7 +74,7 @@ int NewProveedor()
 
         } while (contador < longitud);
 
-        archivo = fopen("/home/luis/Escritorio/ProyectoFarmacia/Datos/Provedores/list.txt", "w");
+        archivo = fopen("Datos/Provedores/list.txt", "w");
 
         if (archivo == NULL)
         {
