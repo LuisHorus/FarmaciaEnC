@@ -1,9 +1,14 @@
 # FarmaciaEnC 🔥
 💻 Se crea un sistema para el S.O GNU/LINUX elabaroado con C 💻
 
-Este Es un sistema en Lenguaje C que sera un punto de Venta atarvez de terminal utilizando linux 💯
+Este Es un sistema en Lenguaje C que sera un punto de Venta atravez de terminal utilizando linux 💯
 
-* Un Proyecto Escolar para mejorar los conocimientos en programacion
+* Un Proyecto Escolar de la Universidad Insurgentes para mejorar los conocimientos en programacion.
+
+
+![GitHub Logo](/img/logo uin.png)
+Format: ![logo universidad](url)
+
 
 * Para entender el desarrollo de un sistema y sus fases de Creacion.
 
