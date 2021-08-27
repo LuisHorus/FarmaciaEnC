@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "lib/caracter.h"
+#include "lib/newProduct.h"
 #define USER "admin"
 #define PASSWORD "123"
 #include <stdlib.h>
@@ -11,7 +12,7 @@
 //Variables Globales
 int opc;
  
-FILE *f;
+FILE *f; // leer archivos
 char aux[200];
 char decision[3];
 
@@ -29,8 +30,8 @@ int main()
     int contador=0;
     int opc=0;
 
-    Datos();
-    do
+    Datos(); // Imprime Los datos 
+    do  //Se crea este ciclo para introducir el login del usuario
     {
         printf("\n\t\t Usuario\n");
         printf("\t\t");
@@ -70,7 +71,7 @@ int main()
     return 0;
 }
 
-void Datos()
+void Datos()    //Variable que contiene los datos
 {
     system("clear");
     Wsize();
@@ -78,18 +79,17 @@ void Datos()
     Wsize();
 }
 
-int Menu()
+int Menu() // Menu Principal de Opciones
 {
 
     int opc = 0;
 
-    printf("\t\t1.- Proveedores\n");
+    printf("\n\t\t1.- Proveedores\n");
     printf("\t\t2.- Productos\n");
-    printf("\t\t3.- Nuevos productos\n");
-    printf("\t\t4.- Venta\n");
-    printf("\t\t5.- Facturar\n");    
-    printf("\t\t6.- Salir\n");
-    printf("\t\t Digite una opcion 1-6 \n");
+    printf("\t\t3.- Venta\n");
+    printf("\t\t4.- Facturas\n");    
+    printf("\t\t5.- Salir\n");
+    printf("\t\t Digite una opcion 1-5 \n");
     scanf("%i", &opc);
     
     switch (opc)
@@ -99,7 +99,7 @@ int Menu()
         Proveedores();
         break;
     case 2:
-        // Productos();
+        Productos();
         break;
 
     case 3:
@@ -111,23 +111,23 @@ int Menu()
         break;
 
     case 5:
-        // Productos();
+        system("clear");
+        exit(1);
         break;
-    case 6:
-    system("clear");
-    exit(1);
-    default:
+    
+    default: //Tenemos este default por alguna opcion invalida
         system("clear");
         printf("Opcion Invalida\n Intente Nuevamente Porfavor\n");
         
-        Menu();
+        Menu(); //No retorna al menu Una Funcion Recursiva La volvemos a llamar
         __fpurge(stdin);
         break;
     }
 
     return 0;
 }
-int Proveedores(){
+
+int Proveedores(){ //Declaramos el valor de Proveedores
    
     Datos();
     printf("\n\t\t Proveedores\n");
@@ -140,14 +140,14 @@ int Proveedores(){
     printf("\nDigite una Opcion: ");
     scanf("%i",&opc);
     
-
+    //Creo un Menu de opciones anteriores
     switch (opc)
     {
         case 1: 
         
         printf("Registrar Nuevos Proveedores, presione enter para acceder....\n");
         getchar();    
-        NewProveedor();
+        NewProveedor(); //Llamamos la funcion que esta en nuestra libreria
         break;
 
     case 2:
@@ -159,16 +159,17 @@ int Proveedores(){
         
 
       
-        f = fopen("Datos/Provedores/list.txt", "r");
-        if (f == NULL)
+        f = fopen("Datos/Provedores/list.txt", "r"); //Nos abre el archivo
+        if (f == NULL)  //Verificamos si el archivo existe
         {
             printf("\nEl archivo no existe. ");
         }
-        while (!feof(f))
+        while (!feof(f))    //Este bucle nos imprime en pantalla
         {
             fgets(aux,200,f);
             printf("%s",aux);
         }
+
         printf("\nDesea volver al menu S/N: ");
         scanf("%s",decision);
         if (strcmp(YES,decision)==0)
@@ -193,4 +194,76 @@ int Proveedores(){
         break;
     }
 return 0;
+}
+
+void Productos(){
+
+    Datos();
+    
+    printf("\n\t Usted Seleciono Productos....\n");
+    Wsize();//Libreria Caracter
+
+    printf("\n\n\t\t1.- Ver Productos En Alamacen");
+    printf("\n\t\t2.- Agregar Nuevos Productos");
+    printf("\n\t\t3.- Volver al Menu Principal");
+    printf("\n\n\t\tPorfavor Digite una opcion valida: ");
+    __fpurge(stdin);//Siempre es bueno Limpiar el buffer de entrada para evitar problemas
+    scanf("%i",&opc);
+    switch (opc) 
+    {
+    case 1: //Listar Productos
+        
+            system("clear");
+        printf("Listar Productos, presione enter para acceder....\n");
+        system("pwd");
+        getchar();
+        char direccion[250];
+        
+     
+        f = fopen("Datos/Products/listProducts.txt", "r"); //Nos abre el archivo
+        if (f == NULL)  //Verificamos si el archivo existe
+        {
+            printf("\nEl archivo no existe. ");
+        }
+        while (!feof(f))    //Este bucle nos imprime en pantalla
+        {
+            fgets(aux,200,f);
+            printf("%s",aux);
+        }
+
+        printf("\nDesea volver al menu S/N: ");
+        __fpurge(stdin);
+        scanf("%s",decision);
+        if (strcmp(YES,decision)==0)
+        {
+            system("clear");
+            
+            Datos();
+            
+            Menu();
+        }else
+        __fpurge(stdin);
+        Productos();
+
+        break;
+    case 2: //Registrar nuevos Productos
+        NewProducts();
+        break;
+
+    case 3: //Regresar al Menu
+        system("clear");
+        Datos();
+        Menu();
+        break;
+
+
+    default: 
+        __fpurge(stdin);
+        system("clear");
+        printf("\n\n\n\t\t\t Opcion Invalida Intente de Nuevo \n");
+        printf("\n\tPresione Enter para continuar");
+        getchar();
+        Productos();
+    }
+
 }

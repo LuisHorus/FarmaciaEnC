@@ -1,0 +1,180 @@
+
+
+ 1 El nombre del producto es: condon
+ 1 Los Productos en Stock son: 56
+ 1 El Precio de compra del producto es: 68.980003
+ 1 El Precio de venta del producto es: 97.500000
+
+
+ 2 El nombre del producto es: pastillas
+ 2 Los Productos en Stock son: 40
+ 2 El Precio de compra del producto es: 35.000000
+ 2 El Precio de venta del producto es: 60.500000
+
+
+ 3 El nombre del producto es: 
+ 3 Los Productos en Stock son: 0
+ 3 El Precio de compra del producto es: 0.000000
+ 3 El Precio de venta del producto es: 0.000000
+
+
+ 4 El nombre del producto es: 
+ 4 Los Productos en Stock son: 0
+ 4 El Precio de compra del producto es: 0.000000
+ 4 El Precio de venta del producto es: 0.000000
+
+
+ 5 El nombre del producto es: 
+ 5 Los Productos en Stock son: 0
+ 5 El Precio de compra del producto es: 0.000000
+ 5 El Precio de venta del producto es: 0.000000
+
+
+ 6 El nombre del producto es: 
+ 6 Los Productos en Stock son: 0
+ 6 El Precio de compra del producto es: 0.000000
+ 6 El Precio de venta del producto es: 0.000000
+
+
+ 7 El nombre del producto es: 
+ 7 Los Productos en Stock son: 0
+ 7 El Precio de compra del producto es: 0.000000
+ 7 El Precio de venta del producto es: 0.000000
+
+
+ 8 El nombre del producto es: 
+ 8 Los Productos en Stock son: 0
+ 8 El Precio de compra del producto es: 0.000000
+ 8 El Precio de venta del producto es: 0.000000
+
+
+ 9 El nombre del producto es: 
+ 9 Los Productos en Stock son: 0
+ 9 El Precio de compra del producto es: 0.000000
+ 9 El Precio de venta del producto es: 0.000000
+
+
+ 10 El nombre del producto es: 
+ 10 Los Productos en Stock son: 0
+ 10 El Precio de compra del producto es: 0.000000
+ 10 El Precio de venta del producto es: 0.000000
+
+
+ 11 El nombre del producto es: 
+ 11 Los Productos en Stock son: 0
+ 11 El Precio de compra del producto es: 0.000000
+ 11 El Precio de venta del producto es: 0.000000
+
+
+ 12 El nombre del producto es: 
+ 12 Los Productos en Stock son: 0
+ 12 El Precio de compra del producto es: 0.000000
+ 12 El Precio de venta del producto es: 0.000000
+
+
+ 13 El nombre del producto es: 
+ 13 Los Productos en Stock son: 0
+ 13 El Precio de compra del producto es: 0.000000
+ 13 El Precio de venta del producto es: 0.000000
+
+
+ 14 El nombre del producto es: 
+ 14 Los Productos en Stock son: 0
+ 14 El Precio de compra del producto es: 0.000000
+ 14 El Precio de venta del producto es: 0.000000
+
+
+ 15 El nombre del producto es: 
+ 15 Los Productos en Stock son: 0
+ 15 El Precio de compra del producto es: 0.000000
+ 15 El Precio de venta del producto es: 0.000000
+
+
+ 16 El nombre del producto es: 
+ 16 Los Productos en Stock son: 0
+ 16 El Precio de compra del producto es: 0.000000
+ 16 El Precio de venta del producto es: 0.000000
+
+
+ 17 El nombre del producto es: 
+ 17 Los Productos en Stock son: 0
+ 17 El Precio de compra del producto es: 0.000000
+ 17 El Precio de venta del producto es: 0.000000
+
+
+ 18 El nombre del producto es: 
+ 18 Los Productos en Stock son: 0
+ 18 El Precio de compra del producto es: 0.000000
+ 18 El Precio de venta del producto es: 0.000000
+
+
+ 19 El nombre del producto es: 
+ 19 Los Productos en Stock son: 0
+ 19 El Precio de compra del producto es: 0.000000
+ 19 El Precio de venta del producto es: 0.000000
+
+
+ 20 El nombre del producto es: 
+ 20 Los Productos en Stock son: 0
+ 20 El Precio de compra del producto es: 0.000000
+ 20 El Precio de venta del producto es: 0.000000
+
+
+ 21 El nombre del producto es: 
+ 21 Los Productos en Stock son: 0
+ 21 El Precio de compra del producto es: 0.000000
+ 21 El Precio de venta del producto es: 0.000000
+
+
+ 22 El nombre del producto es: 
+ 22 Los Productos en Stock son: 0
+ 22 El Precio de compra del producto es: 0.000000
+ 22 El Precio de venta del producto es: 0.000000
+
+
+ 23 El nombre del producto es: 
+ 23 Los Productos en Stock son: 0
+ 23 El Precio de compra del producto es: 0.000000
+ 23 El Precio de venta del producto es: 0.000000
+
+
+ 24 El nombre del producto es: 
+ 24 Los Productos en Stock son: 0
+ 24 El Precio de compra del producto es: 0.000000
+ 24 El Precio de venta del producto es: 0.000000
+
+
+ 25 El nombre del producto es: 
+ 25 Los Productos en Stock son: 0
+ 25 El Precio de compra del producto es: 0.000000
+ 25 El Precio de venta del producto es: 0.000000
+
+
+ 26 El nombre del producto es: 
+ 26 Los Productos en Stock son: 0
+ 26 El Precio de compra del producto es: 0.000000
+ 26 El Precio de venta del producto es: 0.000000
+
+
+ 27 El nombre del producto es: 
+ 27 Los Productos en Stock son: 0
+ 27 El Precio de compra del producto es: 0.000000
+ 27 El Precio de venta del producto es: 0.000000
+
+
+ 28 El nombre del producto es: 
+ 28 Los Productos en Stock son: 0
+ 28 El Precio de compra del producto es: 0.000000
+ 28 El Precio de venta del producto es: 0.000000
+
+
+ 29 El nombre del producto es: 
+ 29 Los Productos en Stock son: 0
+ 29 El Precio de compra del producto es: 0.000000
+ 29 El Precio de venta del producto es: 0.000000
+
+
+ 30 El nombre del producto es: 
+ 30 Los Productos en Stock son: 0
+ 30 El Precio de compra del producto es: 0.000000
+ 30 El Precio de venta del producto es: 0.000000
