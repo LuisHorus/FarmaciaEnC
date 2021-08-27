@@ -1,14 +1,17 @@
 # FarmaciaEnC 🔥
-💻 Se crea un sistema para el S.O GNU/LINUX elabaroado con C 💻
+💻 Se crea un sistema para el S.O GNU/LINUX elabaroado con C 💻 
+__**Este Sistema Puede ser corrido en otro equipo Linux coon tan solo clonando
+el Repositorio y ejecutando el main**__
 
 Este Es un sistema en Lenguaje C que sera un punto de Venta atravez de terminal utilizando linux 💯
 
 * Un Proyecto Escolar de la Universidad Insurgentes para mejorar los conocimientos en programacion.
 
-
+<p align="center">
+  
 ![logo universidad](https://github.com/LuisHorus/FarmaciaEnC/blob/main/img/logo%20uin.png)
 
-
+</p>
 * Para entender el desarrollo de un sistema y sus fases de Creacion.
 
 ## Muestra de Interfaz
