@@ -1,45 +1,44 @@
 
 
- 1 El nombre del producto es: Condon
+ 1 El nombre del producto es: Condon-M_Force_Natural
  1 Los Productos en Stock son: 65
- 1 El Precio de compra del producto es: 120.000000
- 1 El Precio de venta del producto es: 66.000000
+ 1 El Precio de compra del producto es: 40.65
+ 1 El Precio de venta del producto es: 66.50
 
 
- 2 El nombre del producto es: 
- 2 Los Productos en Stock son: 0
- 2 El Precio de compra del producto es: 0.000000
- 2 El Precio de venta del producto es: 0.000000
+ 2 El nombre del producto es: Condon_M_Force_Texturizado
+ 2 Los Productos en Stock son: 40
+ 2 El Precio de compra del producto es: 55.70
+ 2 El Precio de venta del producto es: 71.50
+
+ 3 El nombre del producto es: Sico_Invisible_9
+ 3 Los Productos en Stock son: 25
+ 3 El Precio de compra del producto es: 145.68
+ 3 El Precio de venta del producto es: 206.50
 
 
- 3 El nombre del producto es: 
- 3 Los Productos en Stock son: 0
- 3 El Precio de compra del producto es: 0.000000
- 3 El Precio de venta del producto es: 0.000000
+ 4 El nombre del producto es: Sico_Safey_Lubricado
+ 4 Los Productos en Stock son: 25
+ 4 El Precio de compra del producto es: 50.80
+ 4 El Precio de venta del producto es: 72.000000
 
 
- 4 El nombre del producto es: 
- 4 Los Productos en Stock son: 0
- 4 El Precio de compra del producto es: 0.000000
- 4 El Precio de venta del producto es: 0.000000
+ 5 El nombre del producto es: Sico_invisible_3
+ 5 Los Productos en Stock son: 60
+ 5 El Precio de compra del producto es: 65.32
+ 5 El Precio de venta del producto es: 78.500000
 
 
- 5 El nombre del producto es: 
- 5 Los Productos en Stock son: 0
- 5 El Precio de compra del producto es: 0.000000
- 5 El Precio de venta del producto es: 0.000000
+ 6 El nombre del producto es: Lata_PlayBoy_10
+ 6 Los Productos en Stock son: 10
+ 6 El Precio de compra del producto es: 100.000000
+ 6 El Precio de venta del producto es: 153.000000
 
 
- 6 El nombre del producto es: 
- 6 Los Productos en Stock son: 0
- 6 El Precio de compra del producto es: 0.000000
- 6 El Precio de venta del producto es: 0.000000
-
-
- 7 El nombre del producto es: 
- 7 Los Productos en Stock son: 0
- 7 El Precio de compra del producto es: 0.000000
- 7 El Precio de venta del producto es: 0.000000
+ 7 El nombre del producto es: Prudence_Clasic_3
+ 7 Los Productos en Stock son: 50
+ 7 El Precio de compra del producto es: 20.000000
+ 7 El Precio de venta del producto es: 40.000000
 
 
  8 El nombre del producto es: 
@@ -48,134 +47,133 @@
  8 El Precio de venta del producto es: 0.000000
 
 
- 9 El nombre del producto es: 
- 9 Los Productos en Stock son: 0
- 9 El Precio de compra del producto es: 0.000000
- 9 El Precio de venta del producto es: 0.000000
+ 9 El nombre del producto es: Prudence_Sabor_Aroma_20
+ 9 Los Productos en Stock son: 50
+ 9 El Precio de compra del producto es: 130.80
+ 9 El Precio de venta del producto es: 190.000000
 
 
- 10 El nombre del producto es: 
- 10 Los Productos en Stock son: 0
- 10 El Precio de compra del producto es: 0.000000
- 10 El Precio de venta del producto es: 0.000000
+ 10 El nombre del producto es: Anillo_Vibrador_Prudence
+ 10 Los Productos en Stock son: 32
+ 10 El Precio de compra del producto es: 75.000000
+ 10 El Precio de venta del producto es: 110.000000
 
 
- 11 El nombre del producto es: 
- 11 Los Productos en Stock son: 0
- 11 El Precio de compra del producto es: 0.000000
- 11 El Precio de venta del producto es: 0.000000
+ 11 El nombre del producto es: Psitonor_Prueba
+ 11 Los Productos en Stock son: 100
+ 11 El Precio de compra del producto es: 89.000000
+ 11 El Precio de venta del producto es: 109.500000
 
 
- 12 El nombre del producto es: 
- 12 Los Productos en Stock son: 0
- 12 El Precio de compra del producto es: 0.000000
- 12 El Precio de venta del producto es: 0.000000
+ 12 El nombre del producto es: Complemento_Vitaminico
+ 12 Los Productos en Stock son: 10
+ 12 El Precio de compra del producto es: 90.000000
+ 12 El Precio de venta del producto es: 122.50
 
 
- 13 El nombre del producto es: 
- 13 Los Productos en Stock son: 0
- 13 El Precio de compra del producto es: 0.000000
- 13 El Precio de venta del producto es: 0.000000
+ 13 El nombre del producto es: First_Prueba
+ 13 Los Productos en Stock son: 150
+ 13 El Precio de compra del producto es: 100.99
+ 13 El Precio de venta del producto es: 168.5800
 
 
- 14 El nombre del producto es: 
- 14 Los Productos en Stock son: 0
- 14 El Precio de compra del producto es: 0.000000
- 14 El Precio de venta del producto es: 0.000000
+ 14 El nombre del producto es: Prueba_Ovulacion_7
+ 14 Los Productos en Stock son: 50
+ 14 El Precio de compra del producto es: 235.99
+ 14 El Precio de venta del producto es: 459.000000
 
 
- 15 El nombre del producto es: 
- 15 Los Productos en Stock son: 0
- 15 El Precio de compra del producto es: 0.000000
- 15 El Precio de venta del producto es: 0.000000
+ 15 El nombre del producto es: Preservatido_Retardante
+ 15 Los Productos en Stock son: 40
+ 15 El Precio de compra del producto es: 42.50
+ 15 El Precio de venta del producto es: 57.000000
 
 
- 16 El nombre del producto es: 
- 16 Los Productos en Stock son: 0
- 16 El Precio de compra del producto es: 0.000000
- 16 El Precio de venta del producto es: 0.000000
+ 16 El nombre del producto es: Prudence_Lubri_Vaginal
+ 16 Los Productos en Stock son: 25
+ 16 El Precio de compra del producto es: 80.000000
+ 16 El Precio de venta del producto es: 115.000000
 
 
- 17 El nombre del producto es: 
- 17 Los Productos en Stock son: 0
- 17 El Precio de compra del producto es: 0.000000
- 17 El Precio de venta del producto es: 0.000000
+ 17 El nombre del producto es: Gel_Lubricante_Personal
+ 17 Los Productos en Stock son: 25
+ 17 El Precio de compra del producto es: 88.20
+ 17 El Precio de venta del producto es: 115.000000
 
 
- 18 El nombre del producto es: 
+ 18 El nombre del producto es: Lubricante_Vagina_BasAgua
  18 Los Productos en Stock son: 0
  18 El Precio de compra del producto es: 0.000000
  18 El Precio de venta del producto es: 0.000000
 
 
- 19 El nombre del producto es: 
- 19 Los Productos en Stock son: 0
- 19 El Precio de compra del producto es: 0.000000
- 19 El Precio de venta del producto es: 0.000000
+ 19 El nombre del producto es: Sensy_Vibrador_Pila
+ 19 Los Productos en Stock son: 32
+ 19 El Precio de compra del producto es: 180.000000
+ 19 El Precio de venta del producto es: 277.5000000
 
 
- 20 El nombre del producto es: 
- 20 Los Productos en Stock son: 0
- 20 El Precio de compra del producto es: 0.000000
- 20 El Precio de venta del producto es: 0.000000
+ 20 El nombre del producto es: Sico_Lubricante_Sabor
+ 20 Los Productos en Stock son: 230
+ 20 El Precio de compra del producto es: 88.000000
+ 20 El Precio de venta del producto es: 115.000000
 
 
- 21 El nombre del producto es: s
- 21 Los Productos en Stock son: 1953391990
- 21 El Precio de compra del producto es: 67331052718203718336512.000000
- 21 El Precio de venta del producto es: 4756198271931560611150152335360.000000
+ 21 El nombre del producto es: Sico_Play_Gel
+ 21 Los Productos en Stock son: 35
+ 21 El Precio de compra del producto es: 88.000000
+ 21 El Precio de venta del producto es: 115.000000
 
 
- 22 El nombre del producto es: oducto es: 150.000000
-
- 22 Los Productos en Stock son: 0
- 22 El Precio de compra del producto es: 0.000000
- 22 El Precio de venta del producto es: 0.000000
-
-
- 23 El nombre del producto es: 
- 23 Los Productos en Stock son: 0
- 23 El Precio de compra del producto es: 0.000000
- 23 El Precio de venta del producto es: 0.000000
+ 22 El nombre del producto es: Condon_Femenino_Prudence
+ 22 Los Productos en Stock son: 48
+ 22 El Precio de compra del producto es: 100.000000
+ 22 El Precio de venta del producto es: 150.000000
 
 
- 24 El nombre del producto es: 
- 24 Los Productos en Stock son: 0
- 24 El Precio de compra del producto es: 0.000000
- 24 El Precio de venta del producto es: 0.000000
+ 23 El nombre del producto es: PlayBoy_Lubricant
+ 23 Los Productos en Stock son: 25
+ 23 El Precio de compra del producto es: 145.000000
+ 23 El Precio de venta del producto es: 221.000000
 
 
- 25 El nombre del producto es: 
- 25 Los Productos en Stock son: 0
- 25 El Precio de compra del producto es: 0.000000
- 25 El Precio de venta del producto es: 0.000000
+ 24 El nombre del producto es: Condon_Trojan_2
+ 24 Los Productos en Stock son: 35
+ 24 El Precio de compra del producto es: 25.000000
+ 24 El Precio de venta del producto es: 50.5000000
 
 
- 26 El nombre del producto es: 
- 26 Los Productos en Stock son: 0
- 26 El Precio de compra del producto es: 0.000000
- 26 El Precio de venta del producto es: 0.000000
+ 25 El nombre del producto es: Trojan_Desnuda_3
+ 25 Los Productos en Stock son: 34
+ 25 El Precio de compra del producto es: 30.000000
+ 25 El Precio de venta del producto es: 45.500000
 
 
- 27 El nombre del producto es: 
- 27 Los Productos en Stock son: 0
- 27 El Precio de compra del producto es: 0.000000
- 27 El Precio de venta del producto es: 0.000000
+ 26 El nombre del producto es: Trojan_Calsic_3
+ 26 Los Productos en Stock son: 20
+ 26 El Precio de compra del producto es: 25.000000
+ 26 El Precio de venta del producto es: 40.000000
 
 
- 28 El nombre del producto es: 
- 28 Los Productos en Stock son: 0
- 28 El Precio de compra del producto es: 0.000000
- 28 El Precio de venta del producto es: 0.000000
+ 27 El nombre del producto es: Prueba_clearBlue_99
+ 27 Los Productos en Stock son: 500
+ 27 El Precio de compra del producto es: 45.000000
+ 27 El Precio de venta del producto es: 100.000000
 
 
- 29 El nombre del producto es: 
- 29 Los Productos en Stock son: 0
- 29 El Precio de compra del producto es: 0.000000
- 29 El Precio de venta del producto es: 0.000000
+ 28 El nombre del producto es: Te_Sensual_2
+ 28 Los Productos en Stock son: 25
+ 28 El Precio de compra del producto es: 105.000000
+ 28 El Precio de venta del producto es: 207.000000
 
 
- 30 El nombre del producto es: 
- 30 Los Productos en Stock son: 0
- 30 El Precio de compra del producto es: 0.000000
- 30 El Precio de venta del producto es: 0.000000
+ 29 El nombre del producto es: Sico_Ring_Vibra
+ 29 Los Productos en Stock son: 20
+ 29 El Precio de compra del producto es: 100.000000
+ 29 El Precio de venta del producto es: 150.000000
+
+
+ 30 El nombre del producto es: Prudence_Classic_20
+ 30 Los Productos en Stock son: 100
+ 30 El Precio de compra del producto es: 99.000000
+ 30 El Precio de venta del producto es: 170.000000

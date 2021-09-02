@@ -97,7 +97,7 @@ int Menu() // Menu Principal de Opciones
     printf("\n\t\t1.- Proveedores\n");
     printf("\t\t2.- Productos\n");
     printf("\t\t3.- Venta\n");
-    printf("\t\t4.- Facturas\n");    
+    printf("\t\t4.- Ver Facturas\n");    
     printf("\t\t5.- Salir\n");
     printf("\t\t Digite una opcion 1-5 \n");
     scanf("%i", &opc);
@@ -134,8 +134,27 @@ int Menu() // Menu Principal de Opciones
      
         break;
 
-    case 4: //Funcion Facturas
-        // Productos();
+    case 4: //Ver Facturas
+        system("clear");
+        Datos();
+        printf("\n");
+        system("pwd");
+        system("nautilus Datos/fac");
+        system("ls Datos/fac/");
+         printf("\nDesea volver al menu S/N: ");
+        scanf("%s",decision);
+        if (strcmp(YES,decision)==0)
+        {
+            system("clear");
+            
+            Datos();
+            
+            Menu();
+        }else
+        
+
+        
+     
         break;
 
     case 5:
@@ -322,7 +341,7 @@ void Venta(){
     Wsize();
     printf("\n\t\tSelecciono Las Ventas\n");
     Wsize();
-
+    system("nautilus Datos/Products/listProducts.txt");
     printf("\nSeleccione Productos...\n");
  
 
