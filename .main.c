@@ -1,12 +1,18 @@
+//Librerias Standar
 #include <stdio.h>
 #include <string.h>
-#include "lib/caracter.h"
-#include "lib/newProduct.h"
-#define USER "admin"
-#define PASSWORD "123"
 #include <stdlib.h>
 #include <stdio_ext.h> //!libreria Para Limpiar BUFFER
+
+//Librerias Creadas
+#include "lib/fecha.h"
+#include "lib/caracter.h"
+#include "lib/newProduct.h"
 #include "lib/newProveedor.h"
+
+//Defines utilizados
+#define USER "admin"
+#define PASSWORD "123"
 #define YES "s"
 
 //Variables Globales
@@ -20,6 +26,7 @@ char decision[3];
 void Datos();
 int Proveedores();
 void Productos();
+void Venta();
 int Menu();
 
 int main()
@@ -33,6 +40,7 @@ int main()
     Datos(); // Imprime Los datos 
     do  //Se crea este ciclo para introducir el login del usuario
     {
+        
         printf("\n\t\t Usuario\n");
         printf("\t\t");
         scanf("%s", user);
@@ -75,7 +83,9 @@ void Datos()    //Variable que contiene los datos
 {
     system("clear");
     Wsize();
-    printf("\n\t\t\tProyecto Farmacia \t\t Por: Luis Escobedo\n");
+    printf("\n");
+    fecha();
+    printf("\tProyecto Farmacia \t Por: Luis Escobedo\n");
     Wsize();
 }
 
@@ -95,18 +105,36 @@ int Menu() // Menu Principal de Opciones
     switch (opc)
     {
 
-    case 1:
+    case 1://Funcion De Los Proveedores
+        __fpurge(stdin);
         Proveedores();
         break;
-    case 2:
+    case 2: //Funcion Products
+        __fpurge(stdin);
         Productos();
         break;
 
-    case 3:
-        // Productos();
+    case 3: //Funcion Ventas
+        __fpurge(stdin);
+        Venta();
+
+         printf("\nDesea volver al menu S/N: ");
+        scanf("%s",decision);
+        if (strcmp(YES,decision)==0)
+        {
+            system("clear");
+            
+            Datos();
+            
+            Menu();
+        }else
+        __fpurge(stdin);
+        Venta();
+        
+     
         break;
 
-    case 4:
+    case 4: //Funcion Facturas
         // Productos();
         break;
 
@@ -219,39 +247,49 @@ void Productos(){
         getchar();
         char direccion[250];
         
-     
-        f = fopen("Datos/Products/listProducts.txt", "r"); //Nos abre el archivo
-        if (f == NULL)  //Verificamos si el archivo existe
-        {
-            printf("\nEl archivo no existe. ");
-        }
-        while (!feof(f))    //Este bucle nos imprime en pantalla
-        {
-            fgets(aux,200,f);
-            printf("%s",aux);
-        }
+       
+        printf("\n");
+        Wsize();
+         printf("\n");
 
+
+        //Accedemos al archivo.
+         f = fopen("Datos/Products/listProducts.txt", "r"); //Nos abre el archivo
+         if (f == NULL)  //Verificamos si el archivo existe
+         {
+             printf("\nEl archivo no existe. ");
+         }
+         while (!feof(f))    //Este bucle nos imprime en pantalla
+         {
+             fgets(aux,200,f);
+             printf("%s",aux);
+         }
+         fclose(f); //!Cierro mi archivo para evitar errores
+        
+        //?Preguntamos si desea volver al menu
         printf("\nDesea volver al menu S/N: ");
         __fpurge(stdin);
         scanf("%s",decision);
+       
         if (strcmp(YES,decision)==0)
         {
             system("clear");
-            
             Datos();
-            
             Menu();
         }else
-        __fpurge(stdin);
-        Productos();
+            __fpurge(stdin);
+            Productos();
 
         break;
+
     case 2: //Registrar nuevos Productos
+        __fpurge(stdin);
         NewProducts();
         break;
 
     case 3: //Regresar al Menu
         system("clear");
+        __fpurge(stdin);
         Datos();
         Menu();
         break;
@@ -265,5 +303,97 @@ void Productos(){
         getchar();
         Productos();
     }
+
+}
+
+void Venta(){
+    int respuestaCompra = 0;
+    int contador = 0;
+    float aumento = 0;
+    float subtotal=0;
+    float total=0;
+    FILE *factura;
+    struct compra {
+        char nproducto[50];
+        float precio;
+        unsigned int cantidad;
+    }realizaCompra[15];
+    system("clear");
+    Wsize();
+    printf("\n\t\tSelecciono Las Ventas\n");
+    Wsize();
+
+    printf("\nSeleccione Productos...\n");
+ 
+
+        while (contador<15)
+        {   
+            
+            //Solicitamos Los Datos Al Usuario
+            printf("\n %i Digite el nombre del producto: ",contador+1);
+            __fpurge(stdin);
+            scanf("%s",realizaCompra[contador].nproducto);
+            printf("\n %i Digite el precio: ", contador+1);
+            __fpurge(stdin);
+            scanf("%f",&realizaCompra[contador].precio);
+            printf("\n %i Digite la cantidad a llevar: ",contador+1);
+            __fpurge(stdin);
+            scanf("%u",&realizaCompra[contador].cantidad);
+
+            //Preguntamos Si desea Agregar mas Productos
+            printf("\n\n Desea agregar mas Productos \n\t 1-Si \n\t 2-No\n");
+            __fpurge(stdin);
+            scanf("%d",&respuestaCompra);
+            
+            //Condicon Evaluar si quiere mas Producto
+            if (respuestaCompra == 1)
+            {
+                system("clear");
+                subtotal = (realizaCompra[contador].cantidad) * (realizaCompra[contador].precio);
+                aumento = aumento + subtotal;
+                Wsize();
+                printf("\n\t Usted lleva: %.2f\n",aumento);
+                
+                contador++;
+                continue;   //Continua
+                
+           
+            }else if(respuestaCompra==2){
+                subtotal = (realizaCompra[contador].cantidad) * (realizaCompra[contador].precio);
+                aumento = aumento + subtotal;
+                contador++;                        
+                break;
+            } else break;
+
+                      
+
+        }//Fin While
+        system("clear");
+        Datos();
+
+          total = aumento;
+        factura = fopen("Datos/fac/list.txt","w");
+        if (factura == NULL)
+        {
+            printf("\n\nNo se ha Podido Abrir\n");
+            exit(1);
+        }//For va imprimir
+        for (int i = 0; i < contador; i++)
+          {
+              fprintf(factura,"\n\nProducto: %s \n\t\tCantidad: %u \tPrecio: %.2f \tSubtotal: %.2f",realizaCompra[i].nproducto,realizaCompra[i].cantidad,realizaCompra[i].precio,realizaCompra[i].cantidad * realizaCompra[i].precio);
+          }
+          
+        fclose(factura);
+
+          for (int i = 0; i < contador; i++)
+          {
+              printf("\n\nProducto: %s \n\t\tCantidad: %u \tPrecio: %.2f \tSubtotal: %.2f",realizaCompra[i].nproducto,realizaCompra[i].cantidad,realizaCompra[i].precio,realizaCompra[i].cantidad * realizaCompra[i].precio);
+          }
+          
+            printf("\n\n\t\tUsted debe un total: %.2f\n",total);
+            Wsize();
+            printf("\n\t\tGRACIAS POR SU COMPRA\n");
+            system("./Datos/fac/script.sh");
+        
 
 }

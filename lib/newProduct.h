@@ -35,9 +35,9 @@ void NewProducts(){ //Esta funcion nos va listar los Productos
         int j=0;
         
         
-        // do{
+         do{
 
-        for(j=0;j<30;j++){  //Se estaba haciendo con un so while pero fue mejor implemtar un for
+        
 
         __fpurge(stdin);
         printf("\n\n\t\t %i Ingrese el nombre del nuevo Producto: ",j+1);
@@ -59,7 +59,7 @@ void NewProducts(){ //Esta funcion nos va listar los Productos
 
             if (strcmp(res,YES)==0)
             {  
-                // j++;
+                j++;
                 continue;
             
                 
@@ -70,8 +70,7 @@ void NewProducts(){ //Esta funcion nos va listar los Productos
                 Wsize();
                 break;
 
-         }
-        // }while (j<30);
+         }while (j<30);
         
         
         /* Ahora voy a guardar los datos en un nuevo archivo */

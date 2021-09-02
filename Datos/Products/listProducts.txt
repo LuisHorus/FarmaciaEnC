@@ -1,15 +1,15 @@
 
 
- 1 El nombre del producto es: condon
- 1 Los Productos en Stock son: 56
- 1 El Precio de compra del producto es: 68.980003
- 1 El Precio de venta del producto es: 97.500000
+ 1 El nombre del producto es: Condon
+ 1 Los Productos en Stock son: 65
+ 1 El Precio de compra del producto es: 120.000000
+ 1 El Precio de venta del producto es: 66.000000
 
 
- 2 El nombre del producto es: pastillas
- 2 Los Productos en Stock son: 40
- 2 El Precio de compra del producto es: 35.000000
- 2 El Precio de venta del producto es: 60.500000
+ 2 El nombre del producto es: 
+ 2 Los Productos en Stock son: 0
+ 2 El Precio de compra del producto es: 0.000000
+ 2 El Precio de venta del producto es: 0.000000
 
 
  3 El nombre del producto es: 
@@ -120,13 +120,14 @@
  20 El Precio de venta del producto es: 0.000000
 
 
- 21 El nombre del producto es: 
- 21 Los Productos en Stock son: 0
- 21 El Precio de compra del producto es: 0.000000
- 21 El Precio de venta del producto es: 0.000000
+ 21 El nombre del producto es: s
+ 21 Los Productos en Stock son: 1953391990
+ 21 El Precio de compra del producto es: 67331052718203718336512.000000
+ 21 El Precio de venta del producto es: 4756198271931560611150152335360.000000
 
 
- 22 El nombre del producto es: 
+ 22 El nombre del producto es: oducto es: 150.000000
+
  22 Los Productos en Stock son: 0
  22 El Precio de compra del producto es: 0.000000
  22 El Precio de venta del producto es: 0.000000
