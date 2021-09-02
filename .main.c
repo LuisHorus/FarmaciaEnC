@@ -138,10 +138,8 @@ int Menu() // Menu Principal de Opciones
         system("clear");
         Datos();
         printf("\n");
-        system("pwd");
         system("nautilus Datos/fac");
-        system("ls Datos/fac/");
-         printf("\nDesea volver al menu S/N: ");
+        printf("\nDesea volver al menu S/N: ");
         scanf("%s",decision);
         if (strcmp(YES,decision)==0)
         {
@@ -339,7 +337,7 @@ void Venta(){
     }realizaCompra[15];
     system("clear");
     Wsize();
-    printf("\n\t\tSelecciono Las Ventas\n");
+    printf("\n\t\tSelecciono Las Ventas\n \tPorfavor abra la lista\n\t Cierre la ventana Y ESPERE EL PROGRAMA para poder continuar la ejecucion\n");
     Wsize();
     system("nautilus Datos/Products/listProducts.txt");
     printf("\nSeleccione Productos...\n");
@@ -397,10 +395,15 @@ void Venta(){
             printf("\n\nNo se ha Podido Abrir\n");
             exit(1);
         }//For va imprimir
-        for (int i = 0; i < contador; i++)
+         fprintf(factura,"\tProyecto Farmacia \t Por: Luis Escobedo\n");
+        for (int i = 0; i < contador; i++)          
           {
               fprintf(factura,"\n\nProducto: %s \n\t\tCantidad: %u \tPrecio: %.2f \tSubtotal: %.2f",realizaCompra[i].nproducto,realizaCompra[i].cantidad,realizaCompra[i].precio,realizaCompra[i].cantidad * realizaCompra[i].precio);
           }
+           fprintf(factura,"\n\n\t\tUsted debe un total: %.2f\n",total);
+            
+            fprintf(factura,"\n\t\tGRACIAS POR SU COMPRA\n");
+            
           
         fclose(factura);
 
@@ -412,7 +415,7 @@ void Venta(){
             printf("\n\n\t\tUsted debe un total: %.2f\n",total);
             Wsize();
             printf("\n\t\tGRACIAS POR SU COMPRA\n");
-            system("./Datos/fac/script.sh");
+            system("./Datos/fac/.script.sh");
         
 
 }
